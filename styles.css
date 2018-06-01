@@ -1,0 +1,150 @@
+body {
+  background-color: #f8f9fa;
+  font: normal 16px 'Segoe UI';
+}
+h2 {
+  font-weight: bold;
+}
+.content {
+  margin-top: 80px;
+}
+.logo {
+  border-radius: 9px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 18px;
+}
+header {
+  text-align: center;
+}
+.subtitle {
+  font-weight: 300;
+}
+.btn-primary {
+  margin-top: 29px;
+}
+.filter {
+  margin-top: 40px;
+}
+.form-group {
+  margin-bottom: 12px;
+}
+.small-tip {
+  font-size: 14px;
+  color: #6c757f;
+  width: 100%;
+  text-align: right;
+}
+hr {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.checker {
+  margin-bottom: 16px;
+}
+.crd {
+  border: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0,0,0,.18);
+  transition: box-shadow .2s ease-out;
+  will-change: box-shadow;
+  margin-bottom: 16px;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 9px;
+}
+.crd,
+.crd:hover,
+.crd:active,
+.crd:focus {
+  outline: none;
+  text-decoration: none;
+}
+.crd:hover {
+  box-shadow: 0 7px 10px rgba(0,0,0,.15);
+}
+.crd:hover .crd-action {
+  color: #fff;
+  background: #007bff;
+}
+.crd-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+  width: 100%;
+  padding-right: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.crd-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.crd-price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  width: 12vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #007bff;
+  padding-right: 16px;
+}
+.crd-action {
+  width: 37px;
+  height: 37px;
+  border-radius: 40px;
+  border: 2px solid #007bff;
+  background: #fff;
+  color: #007bff;
+  font-size: 22px;
+  transition: color .2s ease-out, backround .2s ease-out;
+  will-change: color, background;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crd-action i {
+  margin-top: 2px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.row {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.btn,
+.form-control {
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 991px) {
+  .crd-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .crd-price {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .crd {
+    flex-direction: column;
+  }
+}
